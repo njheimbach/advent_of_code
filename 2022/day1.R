@@ -3,7 +3,7 @@
 # part 1 ----
 rm(list=ls())
 #read in the txt file
-cal <- readLines("~/Desktop/aoc_1.txt")
+cal <- readLines("~/Desktop/GitHub/advent_of_code/2022/aoc_1.txt")
 # save character as numbers
 calories <- as.numeric(as.character(cal))
 
